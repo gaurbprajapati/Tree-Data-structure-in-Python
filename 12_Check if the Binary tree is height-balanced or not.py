@@ -16,6 +16,7 @@ class Solution:
         return max(val1, val2)+1
 # Naive Approach
 
+# the time complexity is O(N*2)
     def solution1(self, root):
         if root == None:
             return True
@@ -27,7 +28,7 @@ class Solution:
             return False
         return True
 
-# Optimize
+# Optimize T.C. O(N)
 
     def solution2(self, root):
 
